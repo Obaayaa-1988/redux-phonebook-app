@@ -1,16 +1,24 @@
 import React from "react";
 import PhoneItems from "./phoneItems";
 import PhoneForm from "./phoneForm";
+import { connect } from "react-redux";
 
-const PhoneList = () => {
+const PhoneList = ({ contacts }) => {
 
     return (
         <div>
             <PhoneForm />
-           <PhoneItems />
+            { contacts.map((contact, key ) => ( <PhoneItems name={contact} key={key} />)
+                
+            )}
+          
 
         </div>
     )
 }
 
-export default PhoneList;
+const mapStateToProps = (state) => ({
+    contacts: state.contacts
+})
+
+export default connect(mapStateToProps) (PhoneList);

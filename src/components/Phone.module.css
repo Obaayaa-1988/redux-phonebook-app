@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.light {
+    background-color: rgb(43, 24, 65);
+    height: 100vh;
+    width: 100%;
+}
+
+.merge {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.form_input {
+    background-color: aliceblue;
+    width: 30rem;
+    height: 15rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    border-radius: 10px;
+
+}
+
+.input {
+    padding: 10px;
+    width: 70%;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    outline: none;
+    background-color: rgb(26, 14, 3);
+    color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Oswald';
+
+}
+
+.btn2 {
+    padding: 0.7rem 2rem;
+    outline: none;
+    background-color: rgb(156, 24, 68);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Oswald';
+
+
+
+}
+
+.btn3 {
+
+    padding: 0.7rem 2rem;
+    outline: none;
+    background-color: rgb(9, 9, 32);
+    color: antiquewhite;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    font-family: 'Oswald';
+
+
+}
+
+.container {
+    border-radius: 8px;
+    background-color: aliceblue;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 41%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+
+}

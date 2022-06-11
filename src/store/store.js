@@ -1,6 +1,11 @@
-import { createStore } from "redux";
-import rootReducer from "./reducer"
+import { legacy_createStore as createStore, combineReducers } from 'redux';
+import { contacts } from './reducers/reducer';
 
-const store = createStore (rootReducer)
 
-export default store;
+const reducers = {
+    contacts
+}
+
+const rootReducers = combineReducers(reducers)
+
+export  const combineStore = () => createStore(rootReducers)
